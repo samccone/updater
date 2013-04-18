@@ -1,0 +1,25 @@
+{
+  "name": "updater",
+  "version": "0.0.0",
+  "description": "be notified if your app is out of date",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "npm": "~1.2.18"
+  },
+  "devDependencies": {
+    "mocha": "~1.9.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "",
+  "keywords": [
+    "updates",
+    "npm"
+  ],
+  "author": "Sam Saccone",
+  "license": "BSD"
+}
