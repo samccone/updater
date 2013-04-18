@@ -1,6 +1,6 @@
 {
   "name": "updater",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "be notified if your app is out of date",
   "main": "index.js",
   "directories": {

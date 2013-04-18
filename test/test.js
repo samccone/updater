@@ -6,7 +6,7 @@ var package = require("../package.json");
 describe("getting a version", function() {
   it("should find the version of this app", function(done) {
     updater("updater", function(err, d) {
-      assert.equal("0.0.0", d);
+      assert.equal(package.version, d);
       done();
     });
   });
